@@ -1,0 +1,11 @@
+INSERT INTO Customers (ID_Customer) VALUES (900),(899),(898),(897),(896),(895),(894),(893),(892),(891);
+INSERT INTO Customers (ID_Customer) VALUES (890),(889),(888),(887),(886),(885),(884),(883),(882),(881);
+INSERT INTO Customers (ID_Customer) VALUES (880),(879),(878),(877),(876),(875),(874),(873),(872),(871);
+INSERT INTO Customers (ID_Customer) VALUES (870),(869),(868),(867),(866),(865),(864),(863),(862),(861);
+INSERT INTO Customers (ID_Customer) VALUES (860),(859),(858),(857),(856),(855),(854),(853),(852),(851);
+
+INSERT INTO Customers (ID_Customer) VALUES (800),(799),(798),(797),(796),(795),(794),(793),(792),(791);
+INSERT INTO Customers (ID_Customer) VALUES (790),(789),(788),(787),(786),(785),(784),(783),(782),(781);
+INSERT INTO Customers (ID_Customer) VALUES (780),(779),(778),(777),(776),(775),(774),(773),(772),(771);
+INSERT INTO Customers (ID_Customer) VALUES (770),(769),(768),(767),(766),(765),(764),(763),(762),(761);
+INSERT INTO Customers (ID_Customer) VALUES (760),(759),(758),(757),(756),(755),(754),(753),(752),(751);

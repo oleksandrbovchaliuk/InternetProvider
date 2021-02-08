@@ -1,0 +1,16 @@
+USE InternetProvider
+INSERT INTO Salary (Name_Of_Position, Salary) VALUES ('Service-wizard',6000);
+INSERT INTO Salary (Name_Of_Position, Salary) VALUES ('IT-specialist',15000);
+INSERT INTO Salary (Name_Of_Position, Salary) VALUES ('Repairer',6000);
+INSERT INTO Salary (Name_Of_Position, Salary) VALUES ('Director',20000);
+INSERT INTO Salary (Name_Of_Position, Salary) VALUES ('Deputy-director',15000);
+INSERT INTO Salary (Name_Of_Position, Salary) VALUES ('Accountant',10000);
+INSERT INTO Salary (Name_Of_Position, Salary) VALUES ('Driver',6000);
+
+INSERT INTO Position (ID_Position, Name_Of_Position) VALUES (100,'Service-wizard'); 
+INSERT INTO Position (ID_Position, Name_Of_Position) VALUES (101,'IT-specialist'); 
+INSERT INTO Position (ID_Position, Name_Of_Position) VALUES (102,'Repairer'); 
+INSERT INTO Position (ID_Position, Name_Of_Position) VALUES (106,'Director'); 
+INSERT INTO Position (ID_Position, Name_Of_Position) VALUES (105,'Deputy-director'); 
+INSERT INTO Position (ID_Position, Name_Of_Position) VALUES (103,'Accountant'); 
+INSERT INTO Position (ID_Position, Name_Of_Position) VALUES (104,'Driver'); 

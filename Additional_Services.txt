@@ -1,0 +1,5 @@
+Use InternetProvider
+INSERT INTO Additional_Services (ID_Additional_Services, Name_Of_Services, Free_Period_Months, Price_Termination_Contract) VALUES
+(720, 'No additional services',0,0);
+INSERT INTO Additional_Services (ID_Additional_Services, Name_Of_Services, Free_Period_Months, Price_Termination_Contract) VALUES
+(719, 'Modem',12,250);
