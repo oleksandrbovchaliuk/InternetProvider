@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище InternetProviderModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "InternetProvider.dbo.Additional_Services" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Additional_Services">
+    <Key>
+      <PropertyRef Name="ID_Services" />
+    </Key>
+    <Property Name="ID_Services" Type="int" Nullable="false" />
+    <Property Name="ID_Contract" Type="int" />
+    <Property Name="Start_Date" Type="date" />
+    <Property Name="End_Date" Type="date" />
+  </EntityType>
+  <EntityType Name="Closing_Contract">
+    <Key>
+      <PropertyRef Name="ID_Contract" />
+    </Key>
+    <Property Name="ID_Contract" Type="int" Nullable="false" />
+    <Property Name="Date_Of_Closing" Type="date" Nullable="false" />
+    <Property Name="Reason" Type="char" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Contract">
+    <Key>
+      <PropertyRef Name="ID_Contract" />
+    </Key>
+    <Property Name="ID_Contract" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Employee" Type="int" Nullable="false" />
+    <Property Name="ID_Customer" Type="int" />
+    <Property Name="ID_Tariff_Plan" Type="int" Nullable="false" />
+    <Property Name="ID_Services" Type="int" Nullable="false" />
+    <Property Name="Date_Of_Signing" Type="datetime" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "InternetProvider.dbo.Customers" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="ID_Customer" />
+    </Key>
+    <Property Name="ID_Customer" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="ID_Employee" />
+    </Key>
+    <Property Name="ID_Employee" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Position" Type="int" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="First_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone_Number" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Firm">
+    <Key>
+      <PropertyRef Name="ID_Customer" />
+    </Key>
+    <Property Name="ID_Customer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Company_Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Physical_Adress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone_Number" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="ID_Payment" />
+    </Key>
+    <Property Name="ID_Payment" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Contract" Type="int" Nullable="false" />
+    <Property Name="Sum" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Date_Of_Payment" Type="datetime" StoreGeneratedPattern="Computed" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Physical">
+    <Key>
+      <PropertyRef Name="ID_Customer" />
+    </Key>
+    <Property Name="ID_Customer" Type="int" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="First_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Number_Of_Passport" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Physical_Adress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone_Number" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Position">
+    <Key>
+      <PropertyRef Name="ID_Position" />
+    </Key>
+    <Property Name="ID_Position" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name_Of_Position" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "InternetProvider.dbo.Salary" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Salary">
+    <Key>
+      <PropertyRef Name="ID_Position" />
+      <PropertyRef Name="Salary" />
+    </Key>
+    <Property Name="ID_Position" Type="int" Nullable="false" />
+    <Property Name="Salary" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="ID_Services" />
+    </Key>
+    <Property Name="ID_Services" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name_Of_Services" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Duration" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tariff_Plan">
+    <Key>
+      <PropertyRef Name="ID_Tariff_Plan" />
+    </Key>
+    <Property Name="ID_Tariff_Plan" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name_Of_Tariff" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Cost_Of_Tariff" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Speed_Of_Internet" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "InternetProvider.dbo.вДоговір" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="вДоговір">
+    <Key>
+      <PropertyRef Name="код_тарифного_плана" />
+    </Key>
+    <Property Name="код_тарифного_плана" Type="int" Nullable="false" />
+    <Property Name="прізвище" Type="varchar" MaxLength="100" />
+    <Property Name="імя" Type="varchar" MaxLength="100" />
+    <Property Name="побатькові" Type="varchar" MaxLength="100" />
+    <Property Name="фіз_адреса" Type="varchar" MaxLength="200" />
+    <Property Name="код_працівника" Type="int" />
+    <Property Name="назва" Type="varchar" MaxLength="100" />
+    <Property Name="ціна" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "InternetProvider.dbo.вПрацівники" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="вПрацівники">
+    <Key>
+      <PropertyRef Name="назва_посади" />
+    </Key>
+    <Property Name="код_працівника" Type="int" />
+    <Property Name="прізвище" Type="varchar" MaxLength="100" />
+    <Property Name="імя" Type="varchar" MaxLength="100" />
+    <Property Name="побатькові" Type="varchar" MaxLength="100" />
+    <Property Name="назва_посади" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="зарплата" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="код_клієнта" Type="int" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "InternetProvider.dbo.вПрацівники2" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="вПрацівники2">
+    <Key>
+      <PropertyRef Name="назва_посади" />
+    </Key>
+    <Property Name="код_працівника" Type="int" />
+    <Property Name="прізвище" Type="varchar" MaxLength="100" />
+    <Property Name="імя" Type="varchar" MaxLength="100" />
+    <Property Name="побатькові" Type="varchar" MaxLength="100" />
+    <Property Name="назва_посади" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="зарплата" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="код_клієнта" Type="int" />
+  </EntityType>
+  <Association Name="FK_Additional_Services_Contract">
+    <End Role="Contract" Type="Self.Contract" Multiplicity="1" />
+    <End Role="Additional_Services" Type="Self.Additional_Services" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Contract">
+        <PropertyRef Name="ID_Contract" />
+      </Principal>
+      <Dependent Role="Additional_Services">
+        <PropertyRef Name="ID_Services" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Additional_Services_Services">
+    <End Role="Services" Type="Self.Services" Multiplicity="1" />
+    <End Role="Additional_Services" Type="Self.Additional_Services" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="ID_Services" />
+      </Principal>
+      <Dependent Role="Additional_Services">
+        <PropertyRef Name="ID_Services" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Closing_Contract_Contract">
+    <End Role="Contract" Type="Self.Contract" Multiplicity="1" />
+    <End Role="Closing_Contract" Type="Self.Closing_Contract" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Contract">
+        <PropertyRef Name="ID_Contract" />
+      </Principal>
+      <Dependent Role="Closing_Contract">
+        <PropertyRef Name="ID_Contract" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customers_Contract">
+    <End Role="Contract" Type="Self.Contract" Multiplicity="1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Contract">
+        <PropertyRef Name="ID_Contract" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="ID_Customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customers_Firm">
+    <End Role="Firm" Type="Self.Firm" Multiplicity="1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Firm">
+        <PropertyRef Name="ID_Customer" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="ID_Customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customers_Physical">
+    <End Role="Physical" Type="Self.Physical" Multiplicity="1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Physical">
+        <PropertyRef Name="ID_Customer" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="ID_Customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Position">
+    <End Role="Position" Type="Self.Position" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Position">
+        <PropertyRef Name="ID_Position" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="ID_Position" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Salary_Position">
+    <End Role="Position" Type="Self.Position" Multiplicity="1" />
+    <End Role="Salary" Type="Self.Salary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Position">
+        <PropertyRef Name="ID_Position" />
+      </Principal>
+      <Dependent Role="Salary">
+        <PropertyRef Name="ID_Position" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Договір_Працівники">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID_Employee" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="ID_Employee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Договір_Тарифний_план">
+    <End Role="Tariff_Plan" Type="Self.Tariff_Plan" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tariff_Plan">
+        <PropertyRef Name="ID_Tariff_Plan" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="ID_Tariff_Plan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Оплата_Договір">
+    <End Role="Contract" Type="Self.Contract" Multiplicity="1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contract">
+        <PropertyRef Name="ID_Contract" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="ID_Contract" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище InternetProviderModelContainer">
+    <EntitySet Name="Closing_Contract" EntityType="Self.Closing_Contract" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contract" EntityType="Self.Contract" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Firm" EntityType="Self.Firm" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Physical" EntityType="Self.Physical" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Position" EntityType="Self.Position" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Services" EntityType="Self.Services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tariff_Plan" EntityType="Self.Tariff_Plan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Additional_Services" EntityType="Self.Additional_Services" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Additional_Services].[ID_Services] AS [ID_Services], 
+    [Additional_Services].[ID_Contract] AS [ID_Contract], 
+    [Additional_Services].[Start_Date] AS [Start_Date], 
+    [Additional_Services].[End_Date] AS [End_Date]
+    FROM [dbo].[Additional_Services] AS [Additional_Services]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Customers" EntityType="Self.Customers" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Customers].[ID_Customer] AS [ID_Customer]
+    FROM [dbo].[Customers] AS [Customers]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Salary" EntityType="Self.Salary" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Salary].[ID_Position] AS [ID_Position], 
+    [Salary].[Salary] AS [Salary]
+    FROM [dbo].[Salary] AS [Salary]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="вДоговір" EntityType="Self.вДоговір" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [вДоговір].[код_тарифного_плана] AS [код_тарифного_плана], 
+    [вДоговір].[прізвище] AS [прізвище], 
+    [вДоговір].[імя] AS [імя], 
+    [вДоговір].[побатькові] AS [побатькові], 
+    [вДоговір].[фіз_адреса] AS [фіз_адреса], 
+    [вДоговір].[код_працівника] AS [код_працівника], 
+    [вДоговір].[назва] AS [назва], 
+    [вДоговір].[ціна] AS [ціна]
+    FROM [dbo].[вДоговір] AS [вДоговір]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="вПрацівники" EntityType="Self.вПрацівники" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [вПрацівники].[код_працівника] AS [код_працівника], 
+    [вПрацівники].[прізвище] AS [прізвище], 
+    [вПрацівники].[імя] AS [імя], 
+    [вПрацівники].[побатькові] AS [побатькові], 
+    [вПрацівники].[назва_посади] AS [назва_посади], 
+    [вПрацівники].[зарплата] AS [зарплата], 
+    [вПрацівники].[код_клієнта] AS [код_клієнта]
+    FROM [dbo].[вПрацівники] AS [вПрацівники]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="вПрацівники2" EntityType="Self.вПрацівники2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [вПрацівники2].[код_працівника] AS [код_працівника], 
+    [вПрацівники2].[прізвище] AS [прізвище], 
+    [вПрацівники2].[імя] AS [імя], 
+    [вПрацівники2].[побатькові] AS [побатькові], 
+    [вПрацівники2].[назва_посади] AS [назва_посади], 
+    [вПрацівники2].[зарплата] AS [зарплата], 
+    [вПрацівники2].[код_клієнта] AS [код_клієнта]
+    FROM [dbo].[вПрацівники2] AS [вПрацівники2]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Additional_Services_Contract" Association="Self.FK_Additional_Services_Contract">
+      <End Role="Contract" EntitySet="Contract" />
+      <End Role="Additional_Services" EntitySet="Additional_Services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Additional_Services_Services" Association="Self.FK_Additional_Services_Services">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="Additional_Services" EntitySet="Additional_Services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Closing_Contract_Contract" Association="Self.FK_Closing_Contract_Contract">
+      <End Role="Contract" EntitySet="Contract" />
+      <End Role="Closing_Contract" EntitySet="Closing_Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customers_Contract" Association="Self.FK_Customers_Contract">
+      <End Role="Contract" EntitySet="Contract" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customers_Firm" Association="Self.FK_Customers_Firm">
+      <End Role="Firm" EntitySet="Firm" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customers_Physical" Association="Self.FK_Customers_Physical">
+      <End Role="Physical" EntitySet="Physical" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Position" Association="Self.FK_Employee_Position">
+      <End Role="Position" EntitySet="Position" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Salary_Position" Association="Self.FK_Salary_Position">
+      <End Role="Position" EntitySet="Position" />
+      <End Role="Salary" EntitySet="Salary" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Договір_Працівники" Association="Self.FK_Договір_Працівники">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Договір_Тарифний_план" Association="Self.FK_Договір_Тарифний_план">
+      <End Role="Tariff_Plan" EntitySet="Tariff_Plan" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Оплата_Договір" Association="Self.FK_Оплата_Договір">
+      <End Role="Contract" EntitySet="Contract" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

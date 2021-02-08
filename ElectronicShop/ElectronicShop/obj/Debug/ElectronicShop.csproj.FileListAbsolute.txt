@@ -1,0 +1,399 @@
+F:\Курсач\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csprojResolveAssemblyReference.cache
+F:\Курсач\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csproj.CoreCompileInputs.cache
+F:\Курсач\ElectronicShop\ElectronicShop\bin\ApplicationInsights.config
+F:\Курсач\ElectronicShop\ElectronicShop\bin\ElectronicShop.dll.config
+F:\Курсач\ElectronicShop\ElectronicShop\bin\ElectronicShop.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\ElectronicShop.pdb
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\csc.exe
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\csc.exe.config
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\csc.rsp
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\csi.exe
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\csi.exe.config
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\csi.rsp
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.AppContext.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Collections.Immutable.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Console.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.Process.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.Compression.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.Pipes.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Reflection.Metadata.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.AccessControl.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Claims.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Threading.Thread.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.ValueTuple.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XPath.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\vbc.exe
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\vbc.exe.config
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\vbc.rsp
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\VBCSCompiler.exe
+F:\Курсач\ElectronicShop\ElectronicShop\bin\roslyn\VBCSCompiler.exe.config
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Antlr3.Runtime.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\EntityFramework.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\EntityFramework.SqlServer.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.Web.Infrastructure.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Newtonsoft.Json.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.Helpers.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.Mvc.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.Optimization.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.Razor.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Deployment.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Razor.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\WebGrease.dll
+F:\Курсач\ElectronicShop\ElectronicShop\bin\EntityFramework.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\EntityFramework.SqlServer.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.Helpers.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.Mvc.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.Optimization.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.Razor.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Deployment.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Razor.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Antlr3.Runtime.pdb
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Newtonsoft.Json.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.xml
+F:\Курсач\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.xml
+F:\Курсач\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csproj.CopyComplete
+F:\Курсач\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.dll
+F:\Курсач\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.pdb
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\ApplicationInsights.config
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\ElectronicShop.dll.config
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\ElectronicShop.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\ElectronicShop.pdb
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csc.exe
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csc.exe.config
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csc.rsp
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csi.exe
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csi.exe.config
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csi.rsp
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.AppContext.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Collections.Immutable.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Console.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.Process.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.Compression.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.Pipes.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Reflection.Metadata.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.AccessControl.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Claims.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Threading.Thread.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.ValueTuple.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XPath.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\vbc.exe
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\vbc.exe.config
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\vbc.rsp
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\VBCSCompiler.exe
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\VBCSCompiler.exe.config
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Antlr3.Runtime.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\EntityFramework.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\EntityFramework.SqlServer.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.Web.Infrastructure.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Newtonsoft.Json.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Helpers.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Mvc.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Optimization.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Razor.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Deployment.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Razor.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\WebGrease.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\EntityFramework.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\EntityFramework.SqlServer.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Helpers.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Mvc.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Optimization.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Razor.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Deployment.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Razor.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Antlr3.Runtime.pdb
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Newtonsoft.Json.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.xml
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csprojResolveAssemblyReference.cache
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csproj.CoreCompileInputs.cache
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csproj.CopyComplete
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.dll
+F:\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.pdb
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\ApplicationInsights.config
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\ElectronicShop.dll.config
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\ElectronicShop.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\ElectronicShop.pdb
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csc.exe
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csc.exe.config
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csc.rsp
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csi.exe
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csi.exe.config
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\csi.rsp
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.AppContext.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Collections.Immutable.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Console.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.Process.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.Compression.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.Pipes.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.AccessControl.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Claims.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Principal.Windows.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Threading.Thread.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.ValueTuple.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XPath.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\vbc.exe
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\vbc.exe.config
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\vbc.rsp
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\VBCSCompiler.exe
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\roslyn\VBCSCompiler.exe.config
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Antlr3.Runtime.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\EntityFramework.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\EntityFramework.SqlServer.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Agent.Intercept.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.Web.Infrastructure.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Newtonsoft.Json.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Helpers.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Mvc.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Optimization.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Razor.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Deployment.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Razor.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\WebGrease.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\EntityFramework.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\EntityFramework.SqlServer.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Helpers.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Mvc.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Optimization.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.Razor.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Deployment.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Razor.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Antlr3.Runtime.pdb
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Newtonsoft.Json.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.xml
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csprojAssemblyReference.cache
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csproj.CoreCompileInputs.cache
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csproj.CopyComplete
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.dll
+D:\University\6 семестр\Курсова_Герус\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\ApplicationInsights.config
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\ElectronicShop.dll.config
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\ElectronicShop.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\ElectronicShop.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\csc.exe
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\csc.exe.config
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\csc.rsp
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\csi.exe
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\csi.exe.config
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\csi.rsp
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.CSharp.Core.targets
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Managed.Core.targets
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.AppContext.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Collections.Immutable.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Console.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Globalization.Calendars.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.Compression.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Net.Http.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Net.Sockets.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Reflection.Metadata.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.ValueTuple.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.ReaderWriter.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XmlDocument.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XPath.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\vbc.exe
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\vbc.exe.config
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\vbc.rsp
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\VBCSCompiler.exe
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\roslyn\VBCSCompiler.exe.config
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Antlr3.Runtime.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\EntityFramework.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\EntityFramework.SqlServer.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Agent.Intercept.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.PerfCounterCollector.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.Web.Infrastructure.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Newtonsoft.Json.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Buffers.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Diagnostics.DiagnosticSource.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Memory.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Numerics.Vectors.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.Helpers.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.Mvc.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.Optimization.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.Razor.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Deployment.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Razor.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\WebGrease.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Antlr3.Runtime.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\EntityFramework.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\EntityFramework.SqlServer.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.DependencyCollector.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.PerfCounterCollector.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.PerfCounterCollector.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.Web.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AI.WindowsServer.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.pdb
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.ApplicationInsights.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\Newtonsoft.Json.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Buffers.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Diagnostics.DiagnosticSource.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Memory.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Numerics.Vectors.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.Helpers.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.Mvc.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.Razor.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Deployment.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.WebPages.Razor.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\bin\System.Web.Optimization.xml
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csprojAssemblyReference.cache
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.csproj.CopyComplete
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.dll
+K:\INSTITUT\Курсова БД\ElectronicShop\ElectronicShop\obj\Debug\ElectronicShop.pdb

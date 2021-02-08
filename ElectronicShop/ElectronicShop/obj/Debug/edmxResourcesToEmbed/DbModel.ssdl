@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ElectronicShopModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Adresses">
+    <Key>
+      <PropertyRef Name="AdressId" />
+    </Key>
+    <Property Name="Street" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Build" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="CityId" Type="int" Nullable="false" />
+    <Property Name="AdressId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="CategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Checks">
+    <Key>
+      <PropertyRef Name="CheckId" />
+    </Key>
+    <Property Name="TotalPrice" Type="float" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="CheckId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeId" Type="int" Nullable="false" />
+    <Property Name="CheckDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CityId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Consignments">
+    <Key>
+      <PropertyRef Name="ConsignmentId" />
+    </Key>
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="ProviderId" Type="int" Nullable="false" />
+    <Property Name="ItemId" Type="int" Nullable="false" />
+    <Property Name="ProviderPrice" Type="float" Nullable="false" />
+    <Property Name="ArriveDate" Type="datetime" />
+    <Property Name="ConsignmentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Contracts">
+    <Key>
+      <PropertyRef Name="ContractId" />
+    </Key>
+    <Property Name="Salary" Type="int" Nullable="false" />
+    <Property Name="Bonuses" Type="int" />
+    <Property Name="ContractId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CustomerDiscounts">
+    <Key>
+      <PropertyRef Name="CustDiscId" />
+    </Key>
+    <Property Name="DiscountValue" Type="float" Nullable="false" />
+    <Property Name="CustDiscId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegistrationDate" Type="datetime" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="CustDiscId" Type="int" />
+    <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Discounts">
+    <Key>
+      <PropertyRef Name="DiscountId" />
+    </Key>
+    <Property Name="DiscountValue" Type="float" Nullable="false" />
+    <Property Name="DiscountId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DiscountToItems">
+    <Key>
+      <PropertyRef Name="DiscItemId" />
+    </Key>
+    <Property Name="DiscItemId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StorehouseItemId" Type="int" Nullable="false" />
+    <Property Name="DiscountId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmployeeRoles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RoleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmployeeId" />
+    </Key>
+    <Property Name="Surname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EnterDate" Type="datetime" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmployeeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContractId" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Items">
+    <Key>
+      <PropertyRef Name="ItemId" />
+    </Key>
+    <Property Name="Model" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProducerId" Type="int" Nullable="false" />
+    <Property Name="ItemId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="50" />
+    <Property Name="Material" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="300" />
+    <Property Name="ReleaseDate" Type="int" />
+    <Property Name="CategoryId" Type="int" />
+  </EntityType>
+  <EntityType Name="Producers">
+    <Key>
+      <PropertyRef Name="ProducerId" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProducerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Providers">
+    <Key>
+      <PropertyRef Name="ProviderId" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProviderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="SaleId" />
+    </Key>
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="SaleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CheckId" Type="int" Nullable="false" />
+    <Property Name="SaleDate" Type="datetime" Nullable="false" />
+    <Property Name="StorehouseItemId" Type="int" />
+  </EntityType>
+  <EntityType Name="StorehouseEmployees">
+    <Key>
+      <PropertyRef Name="StorehouseEmpId" />
+    </Key>
+    <Property Name="StorehouseEmpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StorehouseId" Type="int" Nullable="false" />
+    <Property Name="EmployeeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StorehouseItems">
+    <Key>
+      <PropertyRef Name="StorehouseItemId" />
+    </Key>
+    <Property Name="Price" Type="float" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="StorehouseId" Type="int" Nullable="false" />
+    <Property Name="StorehouseItemId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ConsignmentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Storehouses">
+    <Key>
+      <PropertyRef Name="StorehouseId" />
+    </Key>
+    <Property Name="AdressId" Type="int" Nullable="false" />
+    <Property Name="StorehouseId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsShop" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Items_Categories">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+    <End Role="Items" Type="Self.Items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Items">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_13">
+    <End Role="Contracts" Type="Self.Contracts" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Contracts">
+        <PropertyRef Name="ContractId" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="ContractId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_20">
+    <End Role="Cities" Type="Self.Cities" Multiplicity="1" />
+    <End Role="Adresses" Type="Self.Adresses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="CityId" />
+      </Principal>
+      <Dependent Role="Adresses">
+        <PropertyRef Name="CityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_23">
+    <End Role="Storehouses" Type="Self.Storehouses" Multiplicity="1" />
+    <End Role="StorehouseItems" Type="Self.StorehouseItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Storehouses">
+        <PropertyRef Name="StorehouseId" />
+      </Principal>
+      <Dependent Role="StorehouseItems">
+        <PropertyRef Name="StorehouseId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_25">
+    <End Role="Producers" Type="Self.Producers" Multiplicity="1" />
+    <End Role="Items" Type="Self.Items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producers">
+        <PropertyRef Name="ProducerId" />
+      </Principal>
+      <Dependent Role="Items">
+        <PropertyRef Name="ProducerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_31">
+    <End Role="CustomerDiscounts" Type="Self.CustomerDiscounts" Multiplicity="0..1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerDiscounts">
+        <PropertyRef Name="CustDiscId" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="CustDiscId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_32">
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <End Role="Checks" Type="Self.Checks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Checks">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_37">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="StorehouseEmployees" Type="Self.StorehouseEmployees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="StorehouseEmployees">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_40">
+    <End Role="Storehouses" Type="Self.Storehouses" Multiplicity="1" />
+    <End Role="StorehouseEmployees" Type="Self.StorehouseEmployees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Storehouses">
+        <PropertyRef Name="StorehouseId" />
+      </Principal>
+      <Dependent Role="StorehouseEmployees">
+        <PropertyRef Name="StorehouseId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_41">
+    <End Role="Adresses" Type="Self.Adresses" Multiplicity="1" />
+    <End Role="Storehouses" Type="Self.Storehouses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Adresses">
+        <PropertyRef Name="AdressId" />
+      </Principal>
+      <Dependent Role="Storehouses">
+        <PropertyRef Name="AdressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_43">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="Checks" Type="Self.Checks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="Checks">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_44">
+    <End Role="Checks" Type="Self.Checks" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Checks">
+        <PropertyRef Name="CheckId" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="CheckId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_45">
+    <End Role="EmployeeRoles" Type="Self.EmployeeRoles" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmployeeRoles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_46">
+    <End Role="StorehouseItems" Type="Self.StorehouseItems" Multiplicity="1" />
+    <End Role="DiscountToItems" Type="Self.DiscountToItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StorehouseItems">
+        <PropertyRef Name="StorehouseItemId" />
+      </Principal>
+      <Dependent Role="DiscountToItems">
+        <PropertyRef Name="StorehouseItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_47">
+    <End Role="Discounts" Type="Self.Discounts" Multiplicity="1" />
+    <End Role="DiscountToItems" Type="Self.DiscountToItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Discounts">
+        <PropertyRef Name="DiscountId" />
+      </Principal>
+      <Dependent Role="DiscountToItems">
+        <PropertyRef Name="DiscountId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_48">
+    <End Role="StorehouseItems" Type="Self.StorehouseItems" Multiplicity="0..1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StorehouseItems">
+        <PropertyRef Name="StorehouseItemId" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="StorehouseItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_49">
+    <End Role="Providers" Type="Self.Providers" Multiplicity="1" />
+    <End Role="Consignments" Type="Self.Consignments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Providers">
+        <PropertyRef Name="ProviderId" />
+      </Principal>
+      <Dependent Role="Consignments">
+        <PropertyRef Name="ProviderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_50">
+    <End Role="Items" Type="Self.Items" Multiplicity="1" />
+    <End Role="Consignments" Type="Self.Consignments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="ItemId" />
+      </Principal>
+      <Dependent Role="Consignments">
+        <PropertyRef Name="ItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="R_52">
+    <End Role="Consignments" Type="Self.Consignments" Multiplicity="1" />
+    <End Role="StorehouseItems" Type="Self.StorehouseItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Consignments">
+        <PropertyRef Name="ConsignmentId" />
+      </Principal>
+      <Dependent Role="StorehouseItems">
+        <PropertyRef Name="ConsignmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ElectronicShopModelStoreContainer">
+    <EntitySet Name="Adresses" EntityType="Self.Adresses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Checks" EntityType="Self.Checks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Consignments" EntityType="Self.Consignments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contracts" EntityType="Self.Contracts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerDiscounts" EntityType="Self.CustomerDiscounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Discounts" EntityType="Self.Discounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DiscountToItems" EntityType="Self.DiscountToItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmployeeRoles" EntityType="Self.EmployeeRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Producers" EntityType="Self.Producers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Providers" EntityType="Self.Providers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sales" EntityType="Self.Sales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StorehouseEmployees" EntityType="Self.StorehouseEmployees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StorehouseItems" EntityType="Self.StorehouseItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Storehouses" EntityType="Self.Storehouses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Items_Categories" Association="Self.FK_Items_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Items" EntitySet="Items" />
+    </AssociationSet>
+    <AssociationSet Name="R_13" Association="Self.R_13">
+      <End Role="Contracts" EntitySet="Contracts" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="R_20" Association="Self.R_20">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Adresses" EntitySet="Adresses" />
+    </AssociationSet>
+    <AssociationSet Name="R_23" Association="Self.R_23">
+      <End Role="Storehouses" EntitySet="Storehouses" />
+      <End Role="StorehouseItems" EntitySet="StorehouseItems" />
+    </AssociationSet>
+    <AssociationSet Name="R_25" Association="Self.R_25">
+      <End Role="Producers" EntitySet="Producers" />
+      <End Role="Items" EntitySet="Items" />
+    </AssociationSet>
+    <AssociationSet Name="R_31" Association="Self.R_31">
+      <End Role="CustomerDiscounts" EntitySet="CustomerDiscounts" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="R_32" Association="Self.R_32">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Checks" EntitySet="Checks" />
+    </AssociationSet>
+    <AssociationSet Name="R_37" Association="Self.R_37">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="StorehouseEmployees" EntitySet="StorehouseEmployees" />
+    </AssociationSet>
+    <AssociationSet Name="R_40" Association="Self.R_40">
+      <End Role="Storehouses" EntitySet="Storehouses" />
+      <End Role="StorehouseEmployees" EntitySet="StorehouseEmployees" />
+    </AssociationSet>
+    <AssociationSet Name="R_41" Association="Self.R_41">
+      <End Role="Adresses" EntitySet="Adresses" />
+      <End Role="Storehouses" EntitySet="Storehouses" />
+    </AssociationSet>
+    <AssociationSet Name="R_43" Association="Self.R_43">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Checks" EntitySet="Checks" />
+    </AssociationSet>
+    <AssociationSet Name="R_44" Association="Self.R_44">
+      <End Role="Checks" EntitySet="Checks" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="R_45" Association="Self.R_45">
+      <End Role="EmployeeRoles" EntitySet="EmployeeRoles" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="R_46" Association="Self.R_46">
+      <End Role="StorehouseItems" EntitySet="StorehouseItems" />
+      <End Role="DiscountToItems" EntitySet="DiscountToItems" />
+    </AssociationSet>
+    <AssociationSet Name="R_47" Association="Self.R_47">
+      <End Role="Discounts" EntitySet="Discounts" />
+      <End Role="DiscountToItems" EntitySet="DiscountToItems" />
+    </AssociationSet>
+    <AssociationSet Name="R_48" Association="Self.R_48">
+      <End Role="StorehouseItems" EntitySet="StorehouseItems" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="R_49" Association="Self.R_49">
+      <End Role="Providers" EntitySet="Providers" />
+      <End Role="Consignments" EntitySet="Consignments" />
+    </AssociationSet>
+    <AssociationSet Name="R_50" Association="Self.R_50">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Consignments" EntitySet="Consignments" />
+    </AssociationSet>
+    <AssociationSet Name="R_52" Association="Self.R_52">
+      <End Role="Consignments" EntitySet="Consignments" />
+      <End Role="StorehouseItems" EntitySet="StorehouseItems" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

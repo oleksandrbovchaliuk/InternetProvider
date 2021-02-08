@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d56e4f21f4614a069d3aa1d105f2d51a" Name="Diagram1">
+        <EntityTypeShape EntityType="ElectronicShopModel.Adress" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Category" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Check" Width="1.5" PointX="7.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.City" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Consignment" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Contract" Width="1.5" PointX="3" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.CustomerDiscount" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Customer" Width="1.5" PointX="5.25" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Discount" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.DiscountToItem" Width="1.5" PointX="9.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.EmployeeRole" Width="1.5" PointX="3" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Employee" Width="1.5" PointX="5.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Item" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Producer" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Provider" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Sale" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.StorehouseEmployee" Width="1.5" PointX="7.5" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.StorehouseItem" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.Storehouse" Width="1.5" PointX="5.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ElectronicShopModel.sysdiagram" Width="1.5" PointX="5.75" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="ElectronicShopModel.R_20" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_41" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.FK_Items_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_32" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_43" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_44" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_49" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_50" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_52" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_13" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_31" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_47" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_46" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_45" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_37" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_25" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_48" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_40" ManuallyRouted="false" />
+        <AssociationConnector Association="ElectronicShopModel.R_23" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,56 @@
+﻿@model ElectronicShop.Employee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <p>Номер працівника</p>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_Position)
+        </dd>
+
+        <dt>
+            <p>Прізвище</p>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+
+        <dt>
+            <p>Імя</p>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.First_Name)
+        </dd>
+
+        <dt>
+            <p>Телефон</p>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone_Number)
+        </dd>
+
+        <dt>
+            <p>Посада</p>
+        </dt>
+
+       
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_Employee }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

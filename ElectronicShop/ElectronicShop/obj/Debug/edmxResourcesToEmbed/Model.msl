@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище InternetProviderModelContainer" CdmEntityContainer="InternetProviderEntities">
+    <EntitySetMapping Name="Closing_Contract">
+      <EntityTypeMapping TypeName="InternetProviderModel.Closing_Contract">
+        <MappingFragment StoreEntitySet="Closing_Contract">
+          <ScalarProperty Name="ID_Contract" ColumnName="ID_Contract" />
+          <ScalarProperty Name="Date_Of_Closing" ColumnName="Date_Of_Closing" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contract">
+      <EntityTypeMapping TypeName="InternetProviderModel.Contract">
+        <MappingFragment StoreEntitySet="Contract">
+          <ScalarProperty Name="ID_Contract" ColumnName="ID_Contract" />
+          <ScalarProperty Name="ID_Employee" ColumnName="ID_Employee" />
+          <ScalarProperty Name="ID_Customer" ColumnName="ID_Customer" />
+          <ScalarProperty Name="ID_Tariff_Plan" ColumnName="ID_Tariff_Plan" />
+          <ScalarProperty Name="ID_Services" ColumnName="ID_Services" />
+          <ScalarProperty Name="Date_Of_Signing" ColumnName="Date_Of_Signing" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="InternetProviderModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="ID_Employee" ColumnName="ID_Employee" />
+          <ScalarProperty Name="ID_Position" ColumnName="ID_Position" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Firm">
+      <EntityTypeMapping TypeName="InternetProviderModel.Firm">
+        <MappingFragment StoreEntitySet="Firm">
+          <ScalarProperty Name="ID_Customer" ColumnName="ID_Customer" />
+          <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+          <ScalarProperty Name="Physical_Adress" ColumnName="Physical_Adress" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payment">
+      <EntityTypeMapping TypeName="InternetProviderModel.Payment">
+        <MappingFragment StoreEntitySet="Payment">
+          <ScalarProperty Name="ID_Payment" ColumnName="ID_Payment" />
+          <ScalarProperty Name="ID_Contract" ColumnName="ID_Contract" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+          <ScalarProperty Name="Date_Of_Payment" ColumnName="Date_Of_Payment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Physical">
+      <EntityTypeMapping TypeName="InternetProviderModel.Physical">
+        <MappingFragment StoreEntitySet="Physical">
+          <ScalarProperty Name="ID_Customer" ColumnName="ID_Customer" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Number_Of_Passport" ColumnName="Number_Of_Passport" />
+          <ScalarProperty Name="Physical_Adress" ColumnName="Physical_Adress" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Position">
+      <EntityTypeMapping TypeName="InternetProviderModel.Position">
+        <MappingFragment StoreEntitySet="Position">
+          <ScalarProperty Name="ID_Position" ColumnName="ID_Position" />
+          <ScalarProperty Name="Name_Of_Position" ColumnName="Name_Of_Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="InternetProviderModel.Services">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="ID_Services" ColumnName="ID_Services" />
+          <ScalarProperty Name="Name_Of_Services" ColumnName="Name_Of_Services" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="InternetProviderModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tariff_Plan">
+      <EntityTypeMapping TypeName="InternetProviderModel.Tariff_Plan">
+        <MappingFragment StoreEntitySet="Tariff_Plan">
+          <ScalarProperty Name="ID_Tariff_Plan" ColumnName="ID_Tariff_Plan" />
+          <ScalarProperty Name="Name_Of_Tariff" ColumnName="Name_Of_Tariff" />
+          <ScalarProperty Name="Cost_Of_Tariff" ColumnName="Cost_Of_Tariff" />
+          <ScalarProperty Name="Speed_Of_Internet" ColumnName="Speed_Of_Internet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Additional_Services">
+      <EntityTypeMapping TypeName="InternetProviderModel.Additional_Services">
+        <MappingFragment StoreEntitySet="Additional_Services">
+          <ScalarProperty Name="ID_Services" ColumnName="ID_Services" />
+          <ScalarProperty Name="ID_Contract" ColumnName="ID_Contract" />
+          <ScalarProperty Name="Start_Date" ColumnName="Start_Date" />
+          <ScalarProperty Name="End_Date" ColumnName="End_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="InternetProviderModel.Customers">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="ID_Customer" ColumnName="ID_Customer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Salary">
+      <EntityTypeMapping TypeName="InternetProviderModel.Salary">
+        <MappingFragment StoreEntitySet="Salary">
+          <ScalarProperty Name="ID_Position" ColumnName="ID_Position" />
+          <ScalarProperty Name="Salary1" ColumnName="Salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="вДоговір">
+      <EntityTypeMapping TypeName="InternetProviderModel.вДоговір">
+        <MappingFragment StoreEntitySet="вДоговір">
+          <ScalarProperty Name="код_тарифного_плана" ColumnName="код_тарифного_плана" />
+          <ScalarProperty Name="прізвище" ColumnName="прізвище" />
+          <ScalarProperty Name="імя" ColumnName="імя" />
+          <ScalarProperty Name="побатькові" ColumnName="побатькові" />
+          <ScalarProperty Name="фіз_адреса" ColumnName="фіз_адреса" />
+          <ScalarProperty Name="код_працівника" ColumnName="код_працівника" />
+          <ScalarProperty Name="назва" ColumnName="назва" />
+          <ScalarProperty Name="ціна" ColumnName="ціна" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="вПрацівники">
+      <EntityTypeMapping TypeName="InternetProviderModel.вПрацівники">
+        <MappingFragment StoreEntitySet="вПрацівники">
+          <ScalarProperty Name="код_працівника" ColumnName="код_працівника" />
+          <ScalarProperty Name="прізвище" ColumnName="прізвище" />
+          <ScalarProperty Name="імя" ColumnName="імя" />
+          <ScalarProperty Name="побатькові" ColumnName="побатькові" />
+          <ScalarProperty Name="назва_посади" ColumnName="назва_посади" />
+          <ScalarProperty Name="зарплата" ColumnName="зарплата" />
+          <ScalarProperty Name="код_клієнта" ColumnName="код_клієнта" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="вПрацівники2">
+      <EntityTypeMapping TypeName="InternetProviderModel.вПрацівники2">
+        <MappingFragment StoreEntitySet="вПрацівники2">
+          <ScalarProperty Name="код_працівника" ColumnName="код_працівника" />
+          <ScalarProperty Name="прізвище" ColumnName="прізвище" />
+          <ScalarProperty Name="імя" ColumnName="імя" />
+          <ScalarProperty Name="побатькові" ColumnName="побатькові" />
+          <ScalarProperty Name="назва_посади" ColumnName="назва_посади" />
+          <ScalarProperty Name="зарплата" ColumnName="зарплата" />
+          <ScalarProperty Name="код_клієнта" ColumnName="код_клієнта" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

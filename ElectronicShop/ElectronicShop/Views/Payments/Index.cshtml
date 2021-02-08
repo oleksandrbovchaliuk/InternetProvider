@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ElectronicShop.Payment>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Of_Payment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contract.ID_Contract)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Of_Payment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contract.ID_Contract)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID_Payment }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID_Payment }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID_Payment })
+        </td>
+    </tr>
+}
+
+</table>

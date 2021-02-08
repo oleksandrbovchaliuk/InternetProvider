@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Система для обліку та продажу товарів у магазині електроніки</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <h2>Будь ласка увійдіть у систему, щоб почати працювати з програмою.</h2>
+        }
+
+    </div>
+</div>

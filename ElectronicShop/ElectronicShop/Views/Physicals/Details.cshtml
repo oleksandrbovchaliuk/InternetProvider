@@ -1,0 +1,74 @@
+﻿@model ElectronicShop.Physical
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Physical</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.First_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.First_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Number_Of_Passport)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Number_Of_Passport)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Physical_Adress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Physical_Adress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone_Number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone_Number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customers.ID_Customer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customers.ID_Customer)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_Customer }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
